@@ -1,0 +1,31 @@
+name: Validate Profile
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - developer
+  pull_request:
+    branches:
+      - main
+      - master
+      - developer
+
+jobs:
+  validate:
+    name: Lint & Smoke Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Profile & Asset Validation Tests
+        run: |
+          python3 tests/smoke.py
