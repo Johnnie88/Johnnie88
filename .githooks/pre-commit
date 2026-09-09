@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -e
+
+echo "Running pre-commit validation tests..."
+python3 tests/smoke.py
+echo "Pre-commit tests passed!"
