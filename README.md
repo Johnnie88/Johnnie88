@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="João Baptista — Cloud &amp; DevOps Engineer" width="880"/>
+  <img src="https://raw.githubusercontent.com/Johnnie88/Johnnie88/main/assets/header.svg" alt="João Baptista — Cloud &amp; DevOps Engineer" width="880"/>
 </p>
 <p align="center">
-  <img src="./assets/now.svg" alt="Alien Build Tech — Live Cloud Terminal" width="480"/>
+  <img src="https://raw.githubusercontent.com/Johnnie88/Johnnie88/main/assets/now.svg" alt="Alien Build Tech — Live Cloud Terminal" width="480"/>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white" height="22"/>
